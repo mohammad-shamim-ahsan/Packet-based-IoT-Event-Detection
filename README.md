@@ -4,7 +4,11 @@ This repository accompanies the paper **"Detecting Smart Home Device Activities 
 
 The work presents a packet-based signature generation and detection approach for identifying smart-home IoT device activities from encrypted network traffic. It uses packet lengths and directions, and relies on packet counts rather than fixed time windows.
 
-This work is an improved version of **[PINGPONG](https://www.ndss-symposium.org/ndss-paper/packet-level-signatures-for-smart-home-devices/)**, originally presented at the Network and Distributed System Security Symposium (NDSS 2020). It addresses PINGPONG's dependence on fixed time windows by using packet-count thresholds, making activity detection more resilient to network delays and traffic-rate fluctuations. It also supports devices with multiple event types.
+This work is an improved version of **PINGPONG**, originally presented at the Network and Distributed System Security Symposium (NDSS 2020). See the [PINGPONG paper](https://www.ndss-symposium.org/ndss-paper/packet-level-signatures-for-smart-home-devices/) and its [original GitHub repository](https://github.com/uci-plrg/pingpong).
+
+Our approach addresses PINGPONG's dependence on fixed time windows by using packet-count thresholds, making activity detection more resilient to network delays and traffic-rate fluctuations. It also supports devices with multiple event types.
+
+This repository includes only the core implementation folders, located under `Projects`.
 
 ## Key Result
 
