@@ -60,4 +60,4 @@ If you use this work, please cite:
 
 ## License
 
-No license is currently specified. Please contact the authors before reusing or redistributing the code.
+This project is licensed under the [MIT License](LICENSE).
