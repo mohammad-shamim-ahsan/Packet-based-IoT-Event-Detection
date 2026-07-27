@@ -1,6 +1,6 @@
 # Packet-based IoT Event Detection
 
-This repository accompanies the paper **"Detecting Smart Home Device Activities Using Packet-Level Signatures From Encrypted Traffic."**
+This repository accompanies the paper **"Detecting Smart Home Device Activities Using Packet-Level Signatures From Encrypted Traffic"**, published in IEEE Transactions on Dependable and Secure Computing (TDSC).
 
 The work presents a packet-based signature generation and detection approach for identifying smart-home IoT device activities from encrypted network traffic. It uses packet lengths and directions, and relies on packet counts rather than fixed time windows.
 
